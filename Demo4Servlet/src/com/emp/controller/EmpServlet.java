@@ -18,6 +18,11 @@ import com.emp.model.EmpService;
 
 public class EmpServlet extends HttpServlet {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 
 		doPost(req, res);

@@ -22,7 +22,6 @@ import com.emp.util.DBUtil;
 
 
 public class DBEmployee implements IDBEmployee{
-	private static DataSource ds = null;
 	
 	public List<EmpVO> getAllEmp() {
 		Connection conn = null;

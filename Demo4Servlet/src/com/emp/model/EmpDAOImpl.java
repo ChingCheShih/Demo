@@ -9,7 +9,6 @@ import com.emp.jdbc.DBEmployee;
 
 public class EmpDAOImpl implements IEmpDAO{
 	private IDBEmployee emp;
-	private IDBActivity act;
 	
 	EmpDAOImpl(){
 		emp = new DBEmployee();
